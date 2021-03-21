@@ -11,9 +11,10 @@ class Product (Resource):
     def  get(self):
          return  {
 
-           'product': ['ice cream',
+           'products': ['ice cream',
                        'chocalate',
-                       'Fruit']
+                       'Fruit',
+                       'elma','armut']
         }
 
 
